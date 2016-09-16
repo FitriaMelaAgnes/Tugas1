@@ -40,17 +40,17 @@ public class MainActivity extends AppCompatActivity {
         bOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                doOk();
-                doAlat();
-                doArah();
-                doKelas();
+                doOke();
+                doAlatnya();
+                doArahnya();
+                doKelasku();
             }
 
-            private void doKelas() {
+            private void doKelasku() {
                 tvKelas.setText("Paket Class Anda " + spKelas.getSelectedItem().toString());
             }
 
-            private void doArah() {
+            private void doArahnya() {
                 String hasil = null;
                 if (rgArah.getCheckedRadioButtonId() != -1) {
                     RadioButton rb = (RadioButton) findViewById(rgArah.getCheckedRadioButtonId());
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            private void doAlat() {
+            private void doAlatnya() {
                 String alat = "Peralatan keamanan yang anda pakai : \n";
                 int startlen = alat.length();
                 if (cbM.isChecked())
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 tvAlat.setText(alat);
             }
 
-            private void doOk() {
+            private void doOke() {
                 if (isValid()) {
                     String namaku = etNama.getText().toString();
                     tvNama.setText("Nama Anda adalah " + namaku + "\n");
