@@ -5,6 +5,9 @@ kembali vespa sekaligus mempermudah dalam pemesanan ojek vespa. DI aplikasi ini 
 dan peralatan keamanan yang ingin digunakan. jika user belum mengisi kolom nama, nantinya akan keluar alert bahwa user belum menginputkan nama. dan kolom pengisian
 lainnya pun juga seperti itu.
 
+link apk :
+https://drive.google.com/file/d/0Bz8w0f9oRMgsU2t4QkcxUFBlRGs/view?usp=sharing
+
 Fitria Mela Agnes / XI RPL 3/12 / 4715/1432.070 / SMK Telkom Malang
 
 
